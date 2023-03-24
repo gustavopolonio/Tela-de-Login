@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+
+  <link rel="stylesheet" href="style.css" />
+  <script src="index.js" async></script>
+
+  <title>Login</title>
+</head>
+<body>
+  <div class="login-container">
+    <h1>Crie uma conta</h1>
+
+    <form>
+      <div class="input-container">
+        <input type="text" id="username" required placeholder=" "/>
+        <label for="username">Nome</label>
+      </div>
+      <div class="input-container">
+        <input type="email" id="user-email" required placeholder=" "/>
+        <label for="user-email">Email</label>
+      </div>
+      <div class="input-container">
+        <input type="password" id="user-password" required placeholder=" "/>
+        <label for="user-password">Senha</label>
+        <span class="material-icons password-visibility">visibility</span>
+      </div>
+      <button type="submit">Criar conta</button>
+    </form>
+
+    <a href="" class="have-account">Já tem uma conta?</a>
+
+    <hr>
+
+    <div class="oauth-container">
+      <button>
+        <img src="/assets/google-icon.svg" alt="Google icon">
+        Continuar com o Google
+      </button>
+      <button>
+        <img src="/assets/facebook-icon.svg" alt="Facebook icon">
+        Continuar com o Facebook
+      </button>
+    </div>
+  </div>
+</body>
+</html>
